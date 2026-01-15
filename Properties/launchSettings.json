@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsoleApp48": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
