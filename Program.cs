@@ -69,7 +69,7 @@ namespace ConsoleApp48
                     break;
 
                     // since the function is made 
-            }
+            }//calculator
         }
        
     }
