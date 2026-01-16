@@ -10,6 +10,7 @@ namespace ConsoleApp48
         {
             Calculator calculator = new Calculator("Pheladi");
             //DR LOVE
+            //DR YA MARATO EMA
             // create a variable to store the calculation choice
             Console.WriteLine("Enter the first number");
             double Num1 = Convert.ToDouble(Console.ReadLine());
