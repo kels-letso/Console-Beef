@@ -9,7 +9,7 @@ namespace ConsoleApp48
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator("Pheladi");
-
+            // create a variable to store the calculation choice
             Console.WriteLine("Enter the first number");
             double Num1 = Convert.ToDouble(Console.ReadLine());
 
@@ -33,10 +33,18 @@ namespace ConsoleApp48
             int choice = Convert.ToInt16(Console.ReadLine());
 
             //Create a switch to be able to pick an option(on what the user wants to doo, to call a method to calculate
-            
-        
+
+            // create a loop that when the user enter invalid option it keep asking them to enter number for correct calculation
+
+            calculation = 100;
+            while (calculation <= 0)
+                if calculation < 100
+                    break;
+
+
                 Console.WriteLine(choice++);
 
+            
             switch (choice)
             {
 
