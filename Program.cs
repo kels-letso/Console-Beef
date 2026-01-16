@@ -18,7 +18,8 @@ namespace ConsoleApp48
             Console.WriteLine("Enter the second number");
             double Num2 = Convert.ToDouble(Console.ReadLine());
             //this shit is hard
-            // CRAZY STUFF
+            // CRAZY S
+            //dr love
             //We have to ask the user if they want to add,subract, multiply or devide
             Console.WriteLine();
             Console.WriteLine("How do you want to calculate your numbers");
