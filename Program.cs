@@ -10,12 +10,14 @@ namespace ConsoleApp48
         {
             Calculator calculator = new Calculator("Pheladi");
             //DR LOVE
+            // create a variable to store the calculation choice
             Console.WriteLine("Enter the first number");
             double Num1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Enter the second number");
             double Num2 = Convert.ToDouble(Console.ReadLine());
             //this shit is hard
+            // CRAZY STUFF
             //We have to ask the user if they want to add,subract, multiply or devide
             Console.WriteLine();
             Console.WriteLine("How do you want to calculate your numbers");
@@ -32,10 +34,18 @@ namespace ConsoleApp48
             int choice = Convert.ToInt16(Console.ReadLine());
 
             //Create a switch to be able to pick an option(on what the user wants to doo, to call a method to calculate
-            
-        
+
+            // create a loop that when the user enter invalid option it keep asking them to enter number for correct calculation
+
+            calculation = 100;
+            while (calculation <= 0)
+                if calculation < 100
+                    break;
+
+
                 Console.WriteLine(choice++);
 
+            
             switch (choice)
             {
 
