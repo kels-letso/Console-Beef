@@ -16,6 +16,7 @@ namespace ConsoleApp48
             Console.WriteLine("Enter the second number");
             double Num2 = Convert.ToDouble(Console.ReadLine());
             //this shit is hard
+            // CRAZY STUFF
             //We have to ask the user if they want to add,subract, multiply or devide
             Console.WriteLine();
             Console.WriteLine("How do you want to calculate your numbers");
@@ -48,23 +49,24 @@ namespace ConsoleApp48
             {
 
                 case 1:
-
+                    //yho
                     Console.WriteLine($"The sum of {Num1} and {Num2} is {Calculator.add(Num1, Num2)}");
-
+                    //when you add two numbers the final number is called sum
                     break;
 
                 case 2:
 
                     Console.WriteLine($"The difference between {Num1} and {Num2} is {Calculator.subtract(Num1, Num2)}");
+                    //when you subtractc two numbers the product is called difference
                     break;
 
                 case 3:
-
-                    Console.WriteLine($"The product of {Num1} and {Num2} is {Calculator.multiply(Num1, Num2)}");
+                    //something wrong here  
+                    Console.WriteLine($"The prHoduct of {Num1} and {Num2} is {Calculator.multiply(Num1, Num2)}");
                     break;
 
                 case 4:
-
+                    //CALL THE DIVIDE METHOD
                     Console.WriteLine($"The quotient of {Num1} and {Num2} is {Calculator.devide(Num1, Num2)}");
                     break;
                 case 5:
@@ -76,6 +78,12 @@ namespace ConsoleApp48
 
                     break;
 
+                    //end of switch
+
+                    //end of main method
+
+                    //end of class
+                    //end of namespace
 
             }
         }
