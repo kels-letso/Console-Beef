@@ -40,7 +40,7 @@ namespace ConsoleApp48
             {
 
                 case 1:
-
+                    //yho
                     Console.WriteLine($"The sum of {Num1} and {Num2} is {Calculator.add(Num1, Num2)}");
                     //when you add two numbers the final number is called sum
                     break;
@@ -52,7 +52,7 @@ namespace ConsoleApp48
                     break;
 
                 case 3:
-                    
+                    //something wrong here  
                     Console.WriteLine($"The prHoduct of {Num1} and {Num2} is {Calculator.multiply(Num1, Num2)}");
                     break;
 
