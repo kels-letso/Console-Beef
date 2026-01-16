@@ -56,7 +56,7 @@ namespace ConsoleApp48
                     break;
 
                 case 4:
-
+                    //CALL THE DIVIDE METHOD
                     Console.WriteLine($"The quotient of {Num1} and {Num2} is {Calculator.devide(Num1, Num2)}");
                     break;
                 case 5:
