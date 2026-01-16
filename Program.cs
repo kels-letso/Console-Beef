@@ -42,12 +42,13 @@ namespace ConsoleApp48
                 case 1:
 
                     Console.WriteLine($"The sum of {Num1} and {Num2} is {Calculator.add(Num1, Num2)}");
-
+                    //when you add two numbers the final number is called sum
                     break;
 
                 case 2:
 
                     Console.WriteLine($"The difference between {Num1} and {Num2} is {Calculator.subtract(Num1, Num2)}");
+                    //when you subtractc two numbers the product is called difference
                     break;
 
                 case 3:
