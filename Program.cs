@@ -88,6 +88,7 @@ namespace ConsoleApp48
                     //end of class
                     //end of namespace
                     //comments and stuff
+                    //On monday we start with a new project
 
             }
         }
