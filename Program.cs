@@ -33,7 +33,7 @@ namespace ConsoleApp48
 
             //Create a switch to be able to pick an option(on what the user wants to doo, to call a method to calculate
             
-        
+            // create a loop that when the user enter invalid option it keep asking them to enter number for correct calculations  that will be taking place
                 Console.WriteLine(choice++);
 
             switch (choice)
@@ -68,7 +68,7 @@ namespace ConsoleApp48
 
                     break;
 
-
+                    // since the function is made 
             }
         }
        
