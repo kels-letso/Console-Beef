@@ -52,8 +52,8 @@ namespace ConsoleApp48
                     break;
 
                 case 3:
-
-                    Console.WriteLine($"The product of {Num1} and {Num2} is {Calculator.multiply(Num1, Num2)}");
+                    
+                    Console.WriteLine($"The prHoduct of {Num1} and {Num2} is {Calculator.multiply(Num1, Num2)}");
                     break;
 
                 case 4:
