@@ -9,7 +9,7 @@ namespace ConsoleApp48
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator("Pheladi");
-
+            // create a variable to store the calculation choice
             Console.WriteLine("Enter the first number");
             double Num1 = Convert.ToDouble(Console.ReadLine());
 
