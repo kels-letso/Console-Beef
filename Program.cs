@@ -26,7 +26,7 @@ namespace ConsoleApp48
             Console.WriteLine("4. devide");
             Console.WriteLine("5. Is the number odd or even?");
 
-
+            //THE MONEY IS FINISHED
             //you need a variable that you will use to store a number that the people chose like 1.2 .3 
 
             int choice = Convert.ToInt16(Console.ReadLine());
@@ -68,8 +68,8 @@ namespace ConsoleApp48
 
                     break;
 
-                    // since the function is made 
-            }//calculator
+
+            }
         }
        
     }
