@@ -32,10 +32,18 @@ namespace ConsoleApp48
             int choice = Convert.ToInt16(Console.ReadLine());
 
             //Create a switch to be able to pick an option(on what the user wants to doo, to call a method to calculate
-            
-            // create a loop that when the user enter invalid option it keep asking them to enter number for correct calculations  that will be taking place
+
+            // create a loop that when the user enter invalid option it keep asking them to enter number for correct calculation
+
+            calculation = 100;
+            while (calculation <= 0)
+                if calculation < 100
+                    break;
+
+
                 Console.WriteLine(choice++);
 
+            
             switch (choice)
             {
 
